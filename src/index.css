@@ -1,0 +1,523 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.bg{
+    background-color: #2f3349;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: #17121d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2f3349;
+  border-radius: 10px;
+}
+
+.bg-sorrel-nav .badge-network {
+    margin-left: 55px;
+    position: absolute;
+    margin-top: -14px;
+    background-color: #2f3349;
+    padding: 5px;
+}
+
+.offcanvas{
+  background-color: #2f3349!important;
+}
+
+.offcanvas .btn-convert-cancel, .offcanvas .transaction-history h4, .offcanvas .btn-transfer-cancel, 
+.offcanvas .transfers .trx-address,
+ .offcanvas .conversions th:first-child, .offcanvas td:nth-child(3), .offcanvas th:nth-child(3) {
+  display: none!important;
+
+}
+
+/*.offcanvas tr.\3 , .offcanvas tr.\4, .offcanvas tr.\33 3 , .offcanvas tr.\34 , .offcanvas tr.\32 {display: none!important;}*/
+
+.mt-n2 {margin-top: -6em!important;}
+.mt-n4 {margin-top: -13em!important;}
+
+.bg-info h1, .bg-info h5, .home.content h1 {color:#c5c5c5!important;}
+
+.bg-sorrel-nav {background: #17121d73!important;}
+
+
+.bg-sorrel {
+    color:#c5c5c5!important;
+    min-height: 250px;
+    background: #17121d73!important;
+    box-shadow: 0px 2px 2px #109e77;
+    /*background: linear-gradient(180deg, rgba(53,27,109,1) 0%, #2f3349)!important;*/
+  }
+
+.offcanvas-header.bg-info {
+  min-height:100px!important;
+  background-color: #17121d73!important;
+}
+
+.navmenu i,.vault-item h6{color: #7b8ab8;}
+
+.navmenu{
+  background-color: #1d1b2e!important;
+  position: fixed!important;
+/*  border-right: 3px solid #13c56b;*/
+
+}
+
+.sorrel-success{    
+    background-color: #129874!important;
+    text-align: center;
+    color: #fff!important;
+  }
+
+.sorrel-success a{color:#fff!important; text-decoration: none!important;}
+
+.text-sorrel-green{color: #109e77;}
+.transaction-history .text-sorrel-purple{color: #9a6dae;}
+.text-sorrel-normal{color: #7b8ab8;}
+
+.btn-outline-info {
+  background-color: #7a45a5!important;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.btn-outline-info:hover {
+  background-color: #6d3893!important;
+}
+
+.home .carousel .card{
+  min-height: 600px!important;
+}
+
+.home.content .card{
+  min-height: 400px;
+}
+
+
+.bal-card, .info-card{
+
+    border: 1px solid #2f3349;
+    color:#485785;
+    padding: 3em;
+    border-radius: 20px;
+    margin: 2em 0em;
+/*    background-color:#8b3bdd66;*/
+
+
+}
+
+.btn-concierge {
+    border-bottom: 5px solid #129874!important;
+}
+
+
+.accounts.content {
+    min-height: 900px;
+}
+
+.owned-accounts .btn{
+margin-top:0px!important;
+}
+
+.btn, .currency-acc{
+/*  box-shadow: 1px 1px 8px #b7a3a570;*/
+  border-radius: 12px!important;
+}
+
+.accounts .btn, .info-card .btn, .web3-connect .btn {
+  margin:10px;
+}
+
+.currency-acc .apr-info h6, .vault-item .apr-info h6{
+color:#10a265!important;
+font-weight: bold;
+}
+
+.vault-item img{
+  margin-top: -20px!important;
+  margin-right: 10px!important;
+  border-radius: 30px;
+}
+
+.mt-n10 {margin-top: -10rem !important;}
+
+.currency-acc .fa-user-astronaut{font-size: 35px;width: 40px;}
+
+
+.currency-acc img{
+  margin-top: -20px!important;
+  margin-right: 10px!important;
+    border-radius: 25% !important;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.btn-web3 .wallet-addr {color: #7a45a5;}
+.btn-web3 .small {color: #109e77; font-size: 0.7rem;}
+
+.vault-item .nav-link.active, .btn-web3 {
+  background: #2f3349!important;
+}
+
+.btn, .btn-group {box-shadow: none!important;}
+
+.nav-items .nav-item{padding: 0 1em 0 1em;}
+
+
+.currency-name, .account-name{display: inline-block!important;}
+
+.card-title{
+  font-weight: 600;
+}
+
+.accounts .btn-primary {
+    border-bottom: 5px solid #7a45a5!important;
+}
+
+
+.accounts .fa-bolt {
+    position: absolute;
+    background: #7a45a5;
+    border-radius: 30px;
+    color: white;
+    padding: 6px 8px;
+    font-size: 8px;
+    top: -5px;
+    right: 0px;
+}
+
+.currency-selector{
+  border-radius: 30px;
+}
+
+.no-currencies .fa-user-astronaut {color: #7b8ab8!important;}
+
+.offcanvas .fa-bolt, .accounts-info .fa-bolt, .vaults.content .fa-bolt{
+    color: #7a45a5;
+    margin-top: 14px;
+}
+
+.offcanvas .fa-bolt.lite{
+  color:#fff;
+  margin-top: 0px;
+  padding-left: 5px;
+}
+
+.offcanvas .sorrel-bal{font-size: 14px;}
+
+.rowCard {
+    border-radius: 15px;
+    border: 1px solid #434968;
+    background-color: #2f3349;
+}
+
+.rowCard:hover {
+    background-color: #1d1b2e;
+    color: aliceblue;
+/*    opacity: .7;*/
+}
+
+.border-green {
+  border:2px solid #43cc29!important;
+}
+
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show{
+
+  background-color: #7a45a5!important;
+}
+
+
+.btn-web3:first-child:active {
+    background-color: #2f3349!important;
+    color: #7b8ab8!important;
+}
+
+.btn-web3 img {
+    margin-top: -4px;
+    margin-right: 8px;
+}
+
+
+.accounts .card, .accordion-item.vault-item, .accordion-item.wallet-card {
+    border-bottom: 5px solid #129874;
+}
+
+
+.btn-outline-vault-withdraw {
+    background-color: transparent!important;
+    border: 1px solid #109e77!important;
+    color: #109e77!important;
+}
+
+.btn-outline-vault-withdraw:first-child:active {
+  background-color: transparent!important;
+  color: #2f3349!important;
+  border: 1px solid #2f3349!important;
+}
+
+.fa-lock, .fa-lock-open, .fa-unlock {
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+
+
+.wallet-card h4 {
+    color: #7b8ab8;
+}
+
+
+.currency .card {
+  padding-top: 1em!important;
+  padding-bottom: 1em!important;
+}
+
+.currency .card-title {border-bottom: 0px!important;}
+
+.currency h4 .text-xs {font-size: 15px;}
+
+.form-floating.address input{height: 100px;}
+
+.addons .btn.disabled, .btn-outline-light:active {
+    color: #c5c5c5!important;
+}
+
+.progress-bar.bg-energy-guage{background-color: #129874;}
+
+.progress-bar.bg-bandwidth-guage{background-color: #7a45a5;}
+
+.accounts-info .progress, .vaults.content .progress{height: 1.1em;}
+
+.shared-resources .text-xs{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.transaction-history table{
+  vertical-align: middle;
+}
+.transaction-history tr {margin: 10px;}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-4-10 14:59:26
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  color: #109e77;
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+
+.vibrate-1 {
+  -webkit-animation: vibrate-1 0.2s linear infinite both;
+          animation: vibrate-1 0.2s linear infinite both;
+  color: #109e77;
+  font-weight: 900;
+}
+
+.vibrate-sorrel-balance {  
+  font-size: 2.4rem;
+  color: #109e77;
+  font-weight: 900;
+  transition-timing-function: ease-out;
+  transition: 1.5s;
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+
+
+/**
+ * ----------------------------------------
+ * animation heartbeat
+ * ----------------------------------------
+ */
+
+.heartbeat {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+          animation: heartbeat 1.5s ease-in-out infinite both;
+          color: #109e77;
+}
+
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
