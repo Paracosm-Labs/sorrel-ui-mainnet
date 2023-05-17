@@ -41,7 +41,7 @@ const TronVaultItem = () => {
           if(balance > 0 && till ){
             deposits.push({balance, till})          
           }
-          if(till > new Date()){
+          if(till * 3 > new Date()){
             locked = true;
           }
         }
@@ -82,9 +82,9 @@ const TronVaultItem = () => {
     }
 
     const deposit = async () => {
-      // setTimeout(() => {
-      //   setProcessing(false);
-      // }, 10 * 1000);
+      setTimeout(() => {
+        setProcessing(false);
+      }, 120 * 1000);
       try {
         let freezeTx = await window.tronWeb.transactionBuilder.freezeBalanceV2(window.tronWeb.toSun(trxValue), "ENERGY", window.tronWeb.defaultAddress.base58);
         const signedFreezeTxn = await window.tronWeb.trx.sign(freezeTx);

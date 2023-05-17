@@ -188,9 +188,9 @@ const OffcanvasTransfer = () => {
           </div>
 
           <div className="row mt-5 text-center">
-          {/* <div className="col">
+          <div className="col">
             <button className="btn btn-outline-info" onClick={send}>Send</button>
-          </div> */}
+          </div>
           <div className="col">
             <button className="btn btn-outline-info" onClick={sendGL}>
               Send <i className="fa-solid fa-bolt fa-beat lite"></i>
@@ -200,7 +200,7 @@ const OffcanvasTransfer = () => {
           <div id="alertTransferMsg">{trxId? <>
             <div className="mt-4 alert sorrel-success" role="alert"><a href={`https://tronscan.org/#/transaction/${trxId}`} target="_blank"  rel="noreferrer" >Transfer Initiated - 
             <span className="small text-decoration-underline">View Tronscan</span></a><br/>
-            <span className="">Please Confirm Transaction</span>
+            <span className="">Please Confirm Transaction on your Accounts Page</span>
           </div> {/* <TransactionHistory></TransactionHistory> */}
           </>
             : <>{/* <TransactionHistory></TransactionHistory> */}</>

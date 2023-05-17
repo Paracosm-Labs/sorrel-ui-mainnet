@@ -18,7 +18,7 @@ class TransactionPublisher {
     this.notify();
   };
   init = async () => {
-    this.timer = setInterval(() => this.getData(), 15 * 1000);
+    this.timer = setInterval(() => this.getData(), 44 * 1000);
   };
 
   attach = (observer) => {

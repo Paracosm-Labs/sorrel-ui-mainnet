@@ -71,7 +71,7 @@ class WalletPublisher {
     } catch (error) {
       console.error(error);
     }
-    this.timer = setInterval(() => this.getData(), 17 * 1000);
+    this.timer = setInterval(() => this.getData(), 7 * 1000);
   };
 
   attach = (observer) => {

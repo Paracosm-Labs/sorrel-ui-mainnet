@@ -19,7 +19,7 @@ export const isSupportedNetwork = (nw) => {
   return false;
 };
 
-export const supportedNetworks = ["https://api.trongrid.io/", "https://api.tronstack.io/"];
+export const supportedNetworks = ["https://api.tronstack.io/", "https://api.trongrid.io/"];
 
 export const isCurrentNetworkSupported = () => {
   try {

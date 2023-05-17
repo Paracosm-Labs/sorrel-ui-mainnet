@@ -232,7 +232,7 @@ const OffcanvasExchange = () => {
       </div>  
     </div>
     <div className="row mt-5 text-center">
-      {/* <div className="col"><button className="btn btn-outline-info" onClick={exchange}>Convert</button></div> */}
+      <div className="col"><button className="btn btn-outline-info" onClick={exchange}>Convert</button></div>
       <div className="col"><button className="btn btn-outline-info" onClick={exchangeGL}>
         Convert <i className="fa-solid fa-bolt fa-beat lite"></i>
       </button></div>
@@ -241,7 +241,7 @@ const OffcanvasExchange = () => {
       <div className="mt-4 alert sorrel-success" role="alert">
         <a href={`https://tronscan.org/#/transaction/${trxId}`} target="_blank"  rel="noreferrer">Conversion Initiated - 
           <span className="small text-decoration-underline">View Tronscan</span></a><br/>
-          <span className="">Please Confirm Transaction</span>
+          <span className="">Please Confirm Transaction on your Accounts Page</span>
       </div> {/* <ConvertHistory></ConvertHistory> */}
       </>
        : <>{/* <ConvertHistory></ConvertHistory> */}</>

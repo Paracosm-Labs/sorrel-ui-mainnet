@@ -18,7 +18,7 @@ class ConvertPublisher {
     this.notify();
   };
   init = async () => {
-    this.timer = setInterval(() => this.getData(), 15 * 1000);
+    this.timer = setInterval(() => this.getData(), 33 * 1000);
   };
 
   attach = (observer) => {
