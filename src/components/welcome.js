@@ -13,7 +13,7 @@ const Welcome = () => {
             <h1>Welcome to Sorrel Banq!</h1>
             <h4>You don't seem to have any stablecoins yet.<br/>You can get some via:</h4>
             <h3><br/>
-            <a href="https://nile.gostables.org/faucets" target="_blank">
+            <a href="https://sun.io/" target="_blank">
                 <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDeposit">
                 <img src={sunLogo}
                 width="55"
