@@ -96,9 +96,9 @@ const OffcanvasExchange = () => {
       if(!selectedSource || !selectedDest){
         return;
       }
-      let usd = await usddContract();
-      await usd.approve(SwapUSDDContractAddress, 1000);
-      console.log("approved");
+      // let usd = await usddContract();
+      // await usd.approve(SwapUSDDContractAddress, 1000);
+      // console.log("approved");
       let swapGStableContract = await SwapGStableFactory.getSwapGStable();
       let currencySource = getCurrency(selectedSource.value);
       let currencyDest = getCurrency(selectedDest.value);
@@ -232,7 +232,7 @@ const OffcanvasExchange = () => {
       </div>  
     </div>
     <div className="row mt-5 text-center">
-      <div className="col"><button className="btn btn-outline-info" onClick={exchange}>Convert</button></div>
+      <div className="col d-none"><button className="btn btn-outline-info" onClick={exchange}>Convert</button></div>
       <div className="col"><button className="btn btn-outline-info" onClick={exchangeGL}>
         Convert <i className="fa-solid fa-bolt fa-beat lite"></i>
       </button></div>
