@@ -57,7 +57,7 @@ class DepositoryPublisher {
     } catch (error) {
       console.error(error);
     }
-    this.timer = setInterval(() => this.getData(), 3 * 1000);
+    this.timer = setInterval(() => this.getData(), 35 * 1000);
   };
 
   attach = (observer) => {

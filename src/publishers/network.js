@@ -30,11 +30,11 @@ class NetworkPublisher {
           window.tronWeb.solidityNode.host
         );
       } else {
-        setTimeout(() => this.checkNetwork(), 3 * 1000);
+        setTimeout(() => this.checkNetwork(), 5 * 1000);
       }
     } catch (e) {
       console.error(e);
-      setTimeout(() => this.checkNetwork(), 3 * 1000);
+      setTimeout(() => this.checkNetwork(), 5 * 1000);
     }
     this.notify();
   };

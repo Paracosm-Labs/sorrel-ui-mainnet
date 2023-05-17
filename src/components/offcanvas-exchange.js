@@ -242,9 +242,9 @@ const OffcanvasExchange = () => {
         <a href={`https://tronscan.org/#/transaction/${trxId}`} target="_blank"  rel="noreferrer">Conversion Initiated - 
           <span className="small text-decoration-underline">View Tronscan</span></a><br/>
           <span className="">Please Confirm Transaction</span>
-      </div> <ConvertHistory></ConvertHistory>
+      </div> {/* <ConvertHistory></ConvertHistory> */}
       </>
-       : <><ConvertHistory></ConvertHistory></>
+       : <>{/* <ConvertHistory></ConvertHistory> */}</>
       }</div>
   </div>
 </div>
