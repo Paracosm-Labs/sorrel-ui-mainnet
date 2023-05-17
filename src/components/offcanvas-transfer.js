@@ -198,7 +198,7 @@ const OffcanvasTransfer = () => {
           </div>          
           </div>
           <div id="alertTransferMsg">{trxId? <>
-            <div className="mt-4 alert sorrel-success" role="alert"><a href={`https://nile.tronscan.org/#/transaction/${trxId}`} target="_blank"  rel="noreferrer" >Transfer Initiated - 
+            <div className="mt-4 alert sorrel-success" role="alert"><a href={`https://tronscan.org/#/transaction/${trxId}`} target="_blank"  rel="noreferrer" >Transfer Initiated - 
             <span className="small text-decoration-underline">View Tronscan</span></a><br/>
             <span className="">Please Confirm Transaction</span>
           </div> <TransactionHistory></TransactionHistory>

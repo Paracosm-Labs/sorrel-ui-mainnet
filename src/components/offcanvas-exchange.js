@@ -239,7 +239,7 @@ const OffcanvasExchange = () => {
   	</div>
     <div id="alertExchangeMsg">{trxId? <>
       <div className="mt-4 alert sorrel-success" role="alert">
-        <a href={`https://nile.tronscan.org/#/transaction/${trxId}`} target="_blank"  rel="noreferrer">Conversion Initiated - 
+        <a href={`https://tronscan.org/#/transaction/${trxId}`} target="_blank"  rel="noreferrer">Conversion Initiated - 
           <span className="small text-decoration-underline">View Tronscan</span></a><br/>
           <span className="">Please Confirm Transaction</span>
       </div> <ConvertHistory></ConvertHistory>
