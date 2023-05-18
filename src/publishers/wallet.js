@@ -1,4 +1,4 @@
-import { usddContract } from "../contracts/usdContract";
+import { usddContract } from "../contracts/usddContract";
 import { getCurrencies } from "../utils/currencies";
 import getWalletDetails from "../utils/tronWeb";
 import { formatM } from '../utils/currencyFormatter';
