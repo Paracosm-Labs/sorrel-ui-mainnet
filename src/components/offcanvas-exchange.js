@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState }  from 'react';
 import { getCurrencies, getCurrency } from '../utils/currencies';
 import Select from "react-select";
 import SwapGStableFactory from "../utils/swapGStableFactory";
-import {usddContract} from "../contracts/usdContract";
+import {usddContract} from "../contracts/usddContract";
 import {SwapUSDDContractAddress} from "../utils/contractAddress";
 import axios from 'axios';
 import serverURL from '../utils/server';

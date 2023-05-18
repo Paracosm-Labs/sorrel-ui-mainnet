@@ -1,7 +1,7 @@
 import { StableCoinType, USDDAddress } from "../utils/stableCoins";
 import Web3 from "web3";
 
-class USDContract {
+class USDDContract {
   address;
   stableCoinType;
   contract = null;
@@ -65,7 +65,7 @@ class USDContract {
   };
 }
 
-const usddContract_ = new USDContract(USDDAddress, StableCoinType.USDD);
+const usddContract_ = new USDDContract(USDDAddress, StableCoinType.USDD);
 
 let usddContractInitialized = null;
 
