@@ -7,7 +7,7 @@ const USDCMarketContractAddress = "TNSBA6KvSvMoTqQcEgpVK7VhHT3z7wifxy";
 
 // const SwapGStableContractAddress = "---not yet deployed to mainnet---";
 
-const DepositoryContractAddress = "TSEZNy1QMWpXuDMFsSeb1VnnhMrbskyGKf";
+const DepositoryContractAddress = "TNYsTzEyH5Jr2BuagKhfTCTjeaLRaRu1Av";
 const TransferComptrollerAddress = "TXiA4QfUEuJ8tYr8ZaM3jHJ6odijNnJoZw";
 const ConvertComptrollerAddress = "TAcuSa6AnWqc74PpowBqUaaJN4ZSo6WXHM";
 
