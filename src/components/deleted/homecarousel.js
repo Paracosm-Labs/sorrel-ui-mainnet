@@ -6,7 +6,7 @@ const HomeCarousel = () => {
     <>
 <div className="row mt-3">
 	<div className="col"></div>
-	<div className="col-md-6 col-sm-12">
+	<div className="col">
 
 		<div id="homeCarousel" className="carousel carousel-dark slide" data-bs-ride="carousel">
 		  <div className="carousel-indicators">

@@ -1,17 +1,17 @@
-const gStableManagerContractAddress = "TFNqfwJtaimUAYk79Lsru6L7JWMss4Fboq";
-const SwapUSDDContractAddress = "TYSZB3T4s3Y5AkWPcdaWve7XE3SWpFFeMq";
-const VaultUSDDContractAddress = "TVZdVuKzY1dmAcKcVGekvWfc1oLXRGbQcE";
+const gStableManagerContractAddress = "TNcjtBJuqUeGU7QBDwHD7moif7PMtT5au1";
+const SwapUSDDContractAddress = "TWe35BM6sFH4fAgabxaCmodJfjXi6yj6fZ";
+const VaultUSDDContractAddress = "TQwtTaFjBK7MTKis5xqVdsk56VMinZGLVQ";
 const USDDMarketContractAddress = "TX7kybeP6UwTBRHLNPYmswFESHfyjm9bAS";
 const USDTMarketContractAddress = "TXJgMdjVX5dKiQaUi9QobwNxtSQaFqccvd";
 const USDCMarketContractAddress = "TNSBA6KvSvMoTqQcEgpVK7VhHT3z7wifxy";
 
 // const SwapGStableContractAddress = "---not yet deployed to mainnet---";
 
-const DepositoryContractAddress = "TNYsTzEyH5Jr2BuagKhfTCTjeaLRaRu1Av";
-const TransferComptrollerAddress = "TXiA4QfUEuJ8tYr8ZaM3jHJ6odijNnJoZw";
-const ConvertComptrollerAddress = "TAcuSa6AnWqc74PpowBqUaaJN4ZSo6WXHM";
+const DepositoryContractAddress = "TMrak7rc3XnJykLwGfi1JkHooLfjbwibFc";
+const TransferComptrollerAddress = "---"; //TOCHANGE
+const ConvertComptrollerAddress = "---"; //TOCHANGE
 
-const DepositoryOwnerAddress = "TCiJCtTBhGSw8mMYYts67vCXUjdoFLLuYw";
+const DepositoryOwnerAddress = "TR8CREGJkKzUX9jyVzSz8tqpuQBAo9NNhg";
 
 export {gStableManagerContractAddress, 
     SwapUSDDContractAddress, 
